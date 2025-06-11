@@ -19,7 +19,7 @@ class MainWindow(QWidget):
         title = QLabel("FARSFEA")
         title.setStyleSheet("font-weight: bold; font-size: 18px; margin-left: 10px;")
         login_btn = QPushButton("ADMIN LOGIN")
-        login_btn.setStyleSheet("background-color: #3498db; color: white; padding: 5px 10px; margin-right: 10px;")
+        login_btn.setStyleSheet("background-color: #3498db; color: white; font-weight: bold; padding: 5px 18px; border-radius: 6px;")
         login_btn.clicked.connect(self.login_callback)
 
         h_layout = QHBoxLayout(header_frame)
